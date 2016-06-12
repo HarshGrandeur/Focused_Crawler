@@ -1,6 +1,6 @@
 #!/usr/local/bin/python
 import numpy as np
-
+from crawler import Crawler
 from fcconfig import FCConfig
 from fcutils import linesFromFile, getUrlTexts, intLinesFromFile
 from tfidfscorer import TfidfScorer
